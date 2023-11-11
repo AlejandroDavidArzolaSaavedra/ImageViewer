@@ -68,7 +68,3 @@ The main frame of the application, displaying images and providing navigation co
 ## Sample Usage 🖼️
 
 The `Main` class in the `controller` package initializes the Image Viewer with a folder containing images. Use the "<" and ">" buttons to navigate through the images.
-
-## License 📜
-
-This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
