@@ -1,6 +1,6 @@
 <h1 align="center">Image Viewer 🖼️</h1>
 <h2 align="center">
-  <img style="width:500px" src="imageViewer.png">
+  <img style="width:400px" src="imageViewer.png">
 </h2>
 
 ## About
@@ -31,40 +31,6 @@ This command will compile the source code, run tests, and package the applicatio
 
 To run the application, execute the `Main` class in the `controller` package. This will launch the Image Viewer application, allowing you to navigate through images.
 
-## Classes Overview 📝
-
-### `AccessCounter` (util)
-
-Tracks the number of times an image is accessed.
-
-### `ImageDisplay` (ui)
-
-An interface defining methods for displaying images.
-
-### `SwingImageDisplay` (ui)
-
-An implementation of `ImageDisplay` using Swing for graphical display.
-
-### `FileImageLoader` (persistence)
-
-Loads images from files and provides navigation capabilities.
-
-### `RealImage` (model)
-
-Represents a real image with a name and an input stream.
-
-### `ProxyImage` (model)
-
-A proxy for loading and tracking real images using the `AccessCounter`.
-
-### `Main` (controller)
-
-The main class responsible for launching the Image Viewer application.
-
-### `MainFrame` (controller)
-
-The main frame of the application, displaying images and providing navigation controls.
-
 ## Sample Usage 🖼️
-
+<img align="left" width="180" height="180" src="https://github.com/AlejandroDavidArzolaSaavedra/ImageViewer/assets/90756437/90ff306e-1d80-4561-a8cf-defef8bba38f"></a>
 The `Main` class in the `controller` package initializes the Image Viewer with a folder containing images. Use the "<" and ">" buttons to navigate through the images.
